@@ -1,79 +1,152 @@
-body{
-  font-family: sans-serif;
-  margin: 0;
-  background-color: #c4751f;
+body {
+    background-color: black;
 }
 
-header {
+.hero-block {
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    color: white;
+    padding: 5px;
+}
+
+.piashka {
+    color: #81ff00;
+}
+
+.vses {
+    color: white;
     text-align: center;
-    color: orange;
 }
 
-img {
-    width: 100px;
+.stalkertwo {
+    text-align: center;
 }
 
-a {
+.boy-btn {
+    background-image: url(завантаження.jfif);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
     text-decoration: none;
+    color: black;
+    margin: 20px;
 }
 
-nav {
-    text-align: center;
-}
-
-.pronas {
-    display: block;
-    padding: 22px;
-    border: 2px solid black;
+.roll-btn {
+    background-image: url(images 8.jfif);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
     color: black;
 }
 
-.bilce {
-   display: block;
-    padding: 22px;
-    border: 2px solid black;
+.stra-btn {
+    background-image: url(2704493-2867926398-98e52.jpg);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.go-btn {
+    background-image: url(images 67.jfif);
+    background-position: left;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
     color: black;
 }
 
-.cayt {
-    display: block;
-    padding: 22px;
-    border: 2px solid black;
+.horror-btn {
+    background-image: url(0-1-780x439.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.warfake-btn {
+    background-image: url(news_Linx_com.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.dotafake-btn {
+    background-image: url(dota2_social.jpg);
+    padding: 30px;
+    background-position: top;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
     color: black;
 }
 
-.pronas:hover {
-    background-color: #fc2003;
+.pubgfake-btn {
+    background-image: url(heeeeeader.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    color: white;
 }
 
-.bilce:hover {
-    background-color: #fc2003;
+.forzaaa-btn {
+    background-image: url(Forza-Horizon-6-white-hero-desktop-01-en-17mar26.webp);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
 }
 
-.cayt:hover {
-    background-color: #fc2003;
+.popular {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
-h2 {
-    text-align: center;
-    color: orange;
+.wow {
+    margin-bottom: 50px;
 }
 
-img {
-    width: 600px;
-    text-align: center;
-}
-
-p {
-    text-align: center;
+.my {
+    margin-bottom: 50px;
 }
 
 footer {
-    background-color: black;
+    padding: 30px;
+    background-color: #404040;
     color: white;
-    padding: 10px;
+    text-align: left;
 }
 
-
-
-
+.theend {
+    margin-top: 100px;
+}
